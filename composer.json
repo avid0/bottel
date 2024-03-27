@@ -1,5 +1,6 @@
 {
     "name": "avid/bottel",
+    "minimum-stability": "dev",
     "description": "Telegram bot api framework",
     "type": "library",
     "license": "MIT",
