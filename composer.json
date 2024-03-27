@@ -1,0 +1,33 @@
+{
+    "name": "avid/bottel",
+    "description": "Telegram bot api framework",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Bottel\\": "src/"
+        },
+        "files": [
+            "helper.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "Avid",
+            "email": "avid.github@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "amphp/amp": "^3.0",
+        "amphp/file": "^3.0",
+        "amphp/http-client": "^5.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Bottel\\Providers\\BottelProvider"
+            ]
+        }
+    }
+}
